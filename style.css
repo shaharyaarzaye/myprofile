@@ -108,7 +108,12 @@ body{
 
 @media only screen and (min-width: 300px) and (max-width: 760px) {
     /* Your styles go here */
-    
+    body{
+        display: flex;
+        justify-content: center;
+        background-color: #000000;
+        color: white;
+    }
 .card-partone{
     background-color: #000000;
     position: absolute;   
