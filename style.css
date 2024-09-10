@@ -11,7 +11,7 @@ body{
 
 .card-partone{
     background-color: #000000;
-    position: absolute;   
+    /* position: absolute;    */
     border-radius: 10px;
     border: 2px solid white;
     margin-top: 30px;
@@ -106,19 +106,22 @@ body{
     border-bottom-right-radius:10px;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 760px) {
+@media only screen and (min-width: 250px) and (max-width: 760px) {
     /* Your styles go here */
     body{
         display: flex;
         justify-content: center;
+        align-items: center;
         background-color: #000000;
+        width: 100%;
         color: white;
+        padding: 10px;
     }
 .card-partone{
     background-color: #000000;
-    position: absolute;   
     border-radius: 10px;
-    margin: 30px 20px 10px 20px;
+    margin: 30px 10px 30px 10px;
+    width: 100%;
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.6), 0 6px 20px 0 rgba(255, 255, 255, 0.6);
 }  
 .picture{
