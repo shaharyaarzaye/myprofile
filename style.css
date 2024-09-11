@@ -43,6 +43,7 @@ img:hover{
     margin-top: 2rem;
     border: 1px solid white;
     padding: 10px 0 10px 0;
+    flex-wrap: wrap;
 }
 
 .tiles{
