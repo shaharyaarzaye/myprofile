@@ -100,7 +100,7 @@
 
 
 
-@media screen and (min-device-width: 250px) and (max-device-width: 768px) { 
+@media screen and (min-device-width: 150px) and (max-device-width: 768px) { 
     body{
         display: flex;
         justify-content:center;
