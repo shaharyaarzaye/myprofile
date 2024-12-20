@@ -1,10 +1,12 @@
-const style = {
-    backgroundColor : "gray"
-}
+
 
 
 export default function Header (){
    return(
-    <h1 style={style}>Shaharyaar Hussain</h1>
+    <div className="main">
+        <img src="/ProfilePic.jpg" alt="profilepic" className="profilePic"/>
+        <h1>Shaharyaar</h1>
+        <h2>I ❤ to Design and code ⌨️.</h2>
+    </div>
    )
 }

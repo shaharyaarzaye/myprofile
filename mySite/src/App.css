@@ -1,1 +1,39 @@
 
+body{
+    background-color: black;
+    display: flex;
+    color: white;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 80vh;
+    width: 80vw;
+    border-radius: 1.5rem;
+    border: 2px solid white;
+    box-shadow: 0px 0px 24px -1px rgba(255,255,255,0.3) inset,
+    0px 2px 2px 0px rgba(0,0,0,0.12),
+    0px 4px 4px 0px rgba(0,0,0,0.12),
+    0px 8px 8px 0px rgba(0,0,0,0.12),
+    0px 16px 16px 0px rgba(0,0,0,0.12);
+
+}
+
+.main{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profilePic{
+    height: 14rem;
+    width: 14rem;
+    background-color: black;
+    border-radius: 50%;
+    border: 1.5px solid white;
+}
