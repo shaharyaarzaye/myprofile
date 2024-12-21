@@ -8,8 +8,10 @@ body{
     justify-content: center;
 }
 .container{
-    height: 80vh;
-    width: 80vw;
+    height: 98vh;
+    width: 85vw;
+    display: flex;
+    flex-direction: row;
     border-radius: 1.5rem;
     border: 2px solid white;
     box-shadow: 0px 0px 24px -1px rgba(255,255,255,0.3) inset,
@@ -21,18 +23,19 @@ body{
 }
 
 .main{
-    height: 100%;
-    width: 50%;
+    height: 40%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: 1px solid white;
     text-align: center;
 }
 
 .profilePic{
-    height: 14rem;
-    width: 14rem;
+    height: 12rem;
+    width: 12rem;
     background-color: black;
     border-radius: 50%;
     border: 1.5px solid white;
